@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#252530;
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.5;
+}
+.global-padding{
+    padding: 0 55px;
+}
+.global-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.global-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.global-wrap{
+    max-width: 1230px;
+    margin: 0 auto;
+
+}
+.header-section{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.header-wrap{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.header-logo , .header-nav{
+    align-self: center;
+}
+.header-logo{
+    flex: 0 0 25%; 
+    align-self: center;
+}
+
+.header-logo .logo{
+    line-height: 0;
+    margin: 0;
+}
+.header-logo img {
+    max-width: 100%;
+    min-height: 35px;
+    max-height: 35px;
+}
+.header-nav{
+    position: relative;
+    z-index: 3;
+    flex: 0 0 75%;
+    justify-content: flex-end;
+    text-align: right;
+}
+.header-nav nav{
+    font-size: 15px;
+    font-weight:800;
+    padding: 0;
+    width: 100%;
+}
+.header-nav ul{
+    min-width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+ 
+    
+}
+.header-nav a{
+    line-height: 1.4;
+    position: relative;
+    margin: 0 7px;
+    padding: 2px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #ebebeb;
+
+}
+.header-nav a::before{
+    position:absolute;
+    top: 1px;
+    right: -6px;
+    width: 6px;
+    height: 6px;
+    content: '';
+    opacity: 1;
+    transition-timing-function: ease;
+    transition-duration: .3s;
+    transition-property: background-color,opacity ;
+    border-radius: 7px;
+}
+.header-nav a:hover::before, .header-nav a.is-active::before, .header-nav a.is-active:hover::before {
+    background-color: #FFB469;
+}
+.header-nav ul, .header-nav li , .header-nav a{
+    display: inline-block;
+}
+.header-logo, .header-nav {
+    align-self: center;
+}
+.search-open svg{
+        width: 17px;
+        height: 17px;
+        list-style: none;
+        margin: 0 0 -3px 5px;
+       
+}
+.global-svg{
+    transition: fill .2s ease;
+    fill :#EBEBEB;
+}
+.search-open{
+    cursor:pointer;
+}
+
+
