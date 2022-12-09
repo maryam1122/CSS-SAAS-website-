@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/maryam1122/fs13-CSS-SASS#readme",
   "dependencies": {
+    "gitignore": "^0.7.0",
     "saas": "^1.0.0",
     "sass": "^1.56.1"
   }

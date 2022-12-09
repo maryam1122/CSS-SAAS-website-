@@ -1,0 +1,6 @@
+
+@use '../shared/inheritance/mixins';
+
+.subscribe-btn{
+    @include mixins.button;
+}

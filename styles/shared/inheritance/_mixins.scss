@@ -1,2 +1,21 @@
 @use "../variables/color";
 @use "../variables/fonts";
+
+@mixin button($color: color.$primary-color, $bgc: #363643) {
+    font-size: 12px;
+    font-family: fonts.$secondary-font-family;
+    font-weight: fonts.$font-weight-800;
+    margin: 5px 0 0 0;
+    padding: 30px 35px;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: .15s;
+    transition-property: background-color,padding-left,padding-right,color,width;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: $color;
+    border: 0;
+    border-radius: 16px;
+    background-color: $bgc;
+}
