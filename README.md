@@ -1,5 +1,8 @@
 # CSS/SASS Project
 
+This project is made on flexbox layout with SASS styling.
+
+## Technologies
 This project is made on flexbox layout with SCSS styling.
 
 ## Technologies
@@ -12,4 +15,4 @@ This project is made on flexbox layout with SCSS styling.
 
 
 ## Watch Live Demo
-
+                
