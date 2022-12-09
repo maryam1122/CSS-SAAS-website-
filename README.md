@@ -1,43 +1,15 @@
 # CSS/SASS Project
 
-This project is made on flexbox layout with SCSS styling .
+This project is made on flexbox layout with SCSS styling.
 
-## Project Structure
+## Technologies
 
+[![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
 
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-│   .gitignore
-│   index.html
-│   package-lock.json
-│   package.json
-│   README.md
-│
-├───images
-│       article-2.jfif
-│       pinned-1.jpg
-│       pinned-2.jpg
-│       pinned-3.jpg
-│       pinned-4.jpg
-│       section-2.jpg
-│
-└───styles
-    ├───css
-    │       style.css
-    │       style.css.map
-    │       
-    ├───features
-    │       _buttons.scss
-    │
-    ├───scss
-    │       main.scss
-    │
-    └───shared
-        ├───inheritance
-        │       _mixins.scss
-        │
-        └───variables
-                _color.scss
-                _fonts.scss
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
 
 ## Watch Live Demo
-                
+
